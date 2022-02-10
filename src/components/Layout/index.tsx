@@ -1,6 +1,8 @@
-import Header from '../Header'
-import Footer from '../Footer'
 import { ReactChild, ReactChildren } from 'react'
+import loadable from '@loadable/component'
+
+const Header = loadable(() => import('../Header'))
+const Footer = loadable(() => import('../Footer'))
 
 interface Props {
   children: ReactChild | ReactChild[] | ReactChildren | ReactChildren[]

@@ -1,4 +1,6 @@
-import Logo from '../Logo'
+import loadable from '@loadable/component'
+
+const Logo = loadable(() => import('../Logo'))
 
 const Header = () => {
   return (
