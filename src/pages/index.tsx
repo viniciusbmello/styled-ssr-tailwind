@@ -5,8 +5,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Mello CV</title>
-        <meta name="description" content="Vinícius Baptista de Mello CV" />
+        <title>Mello Blog</title>
+        <meta
+          name="description"
+          content="Vinícius Baptista de Mello Personal Blog"
+        />
       </Head>
 
       <section className="flex flex-col justify-center items-center space-y-10 mt-12 sm:mt-24">

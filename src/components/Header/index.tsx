@@ -11,7 +11,7 @@ const Header = () => {
               Vinícius Baptista de Mello
             </span>
             <span className="text-sm tracking-tight whitespace-nowrap">
-              Blog pessoal
+              Personal Blog
             </span>
           </span>
         </p>
