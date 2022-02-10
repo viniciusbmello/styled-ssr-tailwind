@@ -36,6 +36,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# VS Code Settings
+/.vscode
+
 # ESLint
 .eslintignore
 .eslintrc.json
