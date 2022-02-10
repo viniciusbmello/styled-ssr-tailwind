@@ -35,3 +35,14 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# ESLint
+.eslintignore
+.eslintrc.json
+
+# Prettier
+.prettierignore
+.prettierrc.json
+
+# EditorConfig for VS Code
+.editorconfig
